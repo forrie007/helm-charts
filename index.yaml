@@ -1,13 +1,24 @@
 apiVersion: v1
 entries:
+  kavita:
+  - apiVersion: v2
+    appVersion: nightly-0.8.4.6
+    created: "2024-12-11T15:36:49.6485656+11:00"
+    description: Helm chart for deploying Kavita
+    digest: b9b833f7edaf36eff84a4cb63d7d4475776a4b8247c22d0ee230e3565009e496
+    name: kavita
+    type: application
+    urls:
+    - https://forrie007.github.io/helm-charts/kavita-0.1.0.tgz
+    version: 0.1.0
   pypowerwall:
   - apiVersion: v2
     appVersion: 0.6.2t26
-    created: "2024-05-30T16:57:12.1777394+10:00"
+    created: "2024-12-11T15:36:49.6506683+11:00"
     description: A Helm chart for deploying the pypowerwall application
     digest: 18a786cba7d69b61c21e99c99a3ef28048a9c19c1e842f04a59e2588880fc8eb
     name: pypowerwall
     urls:
     - https://forrie007.github.io/helm-charts/pypowerwall-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-30T16:57:12.1734368+10:00"
+generated: "2024-12-11T15:36:49.646735+11:00"
