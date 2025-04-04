@@ -3,7 +3,7 @@ entries:
   kavita:
   - apiVersion: v2
     appVersion: nightly-0.8.4.6
-    created: "2025-04-04T21:10:01.1019187+11:00"
+    created: "2025-04-04T21:21:08.2948041+11:00"
     description: Helm chart for deploying Kavita
     digest: 054da53d7bc4b9f18e80b2e4f9e32cb9c85a227146bc019e559457efd1c308c3
     name: kavita
@@ -14,7 +14,7 @@ entries:
   pypowerwall:
   - apiVersion: v2
     appVersion: 0.6.2t26
-    created: "2025-04-04T21:10:01.1039971+11:00"
+    created: "2025-04-04T21:21:08.3093901+11:00"
     description: A Helm chart for deploying the pypowerwall application
     digest: 18a786cba7d69b61c21e99c99a3ef28048a9c19c1e842f04a59e2588880fc8eb
     name: pypowerwall
@@ -24,11 +24,11 @@ entries:
   servarr:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T21:10:01.1113494+11:00"
+    created: "2025-04-04T21:21:08.3168589+11:00"
     description: Servarr Helm Chart
-    digest: 2fbc053165fb965e37a896fbc120a6db466265900db7a7dad89348df1b5f4530
+    digest: b9a15640db9fc7ae2fc3d2b67a08520175a4dcd93a1de1286d2c20985757e26b
     name: servarr
     urls:
     - https://forrie007.github.io/helm-charts/servarr-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-04T21:10:01.0997255+11:00"
+generated: "2025-04-04T21:21:08.2796932+11:00"
