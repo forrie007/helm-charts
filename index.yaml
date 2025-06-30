@@ -34,11 +34,11 @@ entries:
   coinbase-market:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-06-30T14:08:35.937432+10:00"
+    created: "2025-06-30T14:20:49.9123709+10:00"
     description: Polls Coinbase API for spot/ohlcv data and writes to InfluxDB
-    digest: d16b97b66ae6709de83ebc293b56e43c3b97009fae725ba1482b2edbd0e4c443
+    digest: 8bec934495cf5fd9cd791b6d9c6ef273638524e640e7d63283c90a7244eef8a2
     name: coinbase-market
     urls:
     - https://forrie007.github.io/helm-charts/coinbase-market-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-30T14:08:35.93588+10:00"
+generated: "2025-06-30T14:20:49.9107378+10:00"
