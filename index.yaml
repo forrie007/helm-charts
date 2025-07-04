@@ -41,4 +41,14 @@ entries:
     urls:
     - https://forrie007.github.io/helm-charts/coinbase-market-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-02T15:13:54.8656377+10:00"
+  coinbase-trades:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-07-04T14:39:05.8863955+10:00"
+    description: Polls Coinbase API for trading data and writes to InfluxDB
+    digest: 2f7849ccee64cd4171b1e8074457ef690c543fa291b2c2c535abab52f456b438
+    name: coinbase-trades
+    urls:
+    - https://forrie007.github.io/helm-charts/coinbase-trades-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-07-04T14:39:05.8853149+10:00"
