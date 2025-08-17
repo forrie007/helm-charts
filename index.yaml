@@ -58,7 +58,6 @@ entries:
       of the Dashboard Quickstart)
     digest: 6158d914510ecc46a15c1081dcfcc37e943bb30fc84d7831d93fba71311827c1
     name: hummingbot-dashboard
-    type: application
     urls:
     - https://forrie007.github.io/helm-charts/hummingbot-dashboard-0.1.0.tgz
     version: 0.1.0
