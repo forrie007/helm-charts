@@ -48,6 +48,7 @@ entries:
     description: Polls Coinbase API for trading data and writes to InfluxDB
     digest: e503c5d9037f5709dcb13a22539c976e43042eac3ad0dc718817437d84ead685
     name: coinbase-trades
+    urls:
     - https://forrie007.github.io/helm-charts/coinbase-trades-0.1.0.tgz
     version: 0.1.0
   hummingbot-dashboard:
