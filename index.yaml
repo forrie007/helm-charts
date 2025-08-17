@@ -43,6 +43,15 @@ entries:
     version: 0.1.0
   coinbase-trades:
   - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-07-04T15:57:44.9806701+10:00"
+    description: Polls Coinbase API for trading data and writes to InfluxDB
+    digest: e503c5d9037f5709dcb13a22539c976e43042eac3ad0dc718817437d84ead685
+    name: coinbase-trades
+    - https://forrie007.github.io/helm-charts/coinbase-trades-0.1.0.tgz
+    version: 0.1.0
+  hummingbot-dashboard:
+  - apiVersion: v2
     appVersion: latest
     created: "2025-08-17T16:24:26.0612775+10:00"
     description: Hummingbot Dashboard + API + PostgreSQL + EMQX (Kubernetes adaptation
