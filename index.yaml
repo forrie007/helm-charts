@@ -54,13 +54,13 @@ entries:
   hummingbot-dashboard:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-08-27T11:31:22.9530976+10:00"
+    created: "2025-08-27T11:59:00.8427091+10:00"
     description: Hummingbot Dashboard + API + PostgreSQL + EMQX (Kubernetes adaptation
       of the Dashboard Quickstart)
-    digest: 324d4ae71844cf7cd4ee7995b967136daf36a0dee94b5bfa2324ef550bafec41
+    digest: ded9d5a6b0a4be75bfa4c26a2676c8628da84623052ce74ae31a38d3f3fb2550
     name: hummingbot-dashboard
     type: application
     urls:
     - https://forrie007.github.io/helm-charts/hummingbot-dashboard-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-27T11:31:22.9480965+10:00"
+generated: "2025-08-27T11:59:00.8379338+10:00"
