@@ -51,14 +51,15 @@ entries:
     urls:
     - https://forrie007.github.io/helm-charts/coinbase-trades-0.1.0.tgz
     version: 0.1.0
+entries:
   hummingbot:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-27T20:16:47.209481+10:00"
+    created: "2025-08-27T20:31:04.4608339+10:00"
     description: Hummingbot dashboard + API + EMQX + Postgres (K8s port of hummingbot/deploy)
-    digest: b117cd6f6de901325317ee0ec28c33b3d5a8b76bc2f33212b16a3f3a15a69fc8
+    digest: 35f61a674f6a87a4b324c5842bbe96a3f44edaa4fe48f30b2229ab2dc016e794
     name: hummingbot
     urls:
     - https://forrie007.github.io/helm-charts/hummingbot-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-27T20:16:47.2044803+10:00"
+generated: "2025-08-27T20:31:04.452691+10:00"
