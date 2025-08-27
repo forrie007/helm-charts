@@ -51,16 +51,16 @@ entries:
     urls:
     - https://forrie007.github.io/helm-charts/coinbase-trades-0.1.0.tgz
     version: 0.1.0
-  hummingbot-dashboard:
+  hummingbot:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-08-27T12:43:31.5503746+10:00"
-    description: Hummingbot Dashboard + API + PostgreSQL + EMQX (Kubernetes adaptation
-      of the Dashboard Quickstart)
-    digest: 848b518e8fd767895fb3edba647c7333d3df9cad000bbd979e852d8f446d5415
-    name: hummingbot-dashboard
+    created: "2025-08-27T14:33:53.7920881+10:00"
+    description: Hummingbot dashboard + API + EMQX + Postgres (K8s port of hummingbot/deploy)
+    digest: 9c19b612e4d3daa4869ab7661f9db0305f18b3c39d7f9b6eddb73cdfe10a2b09
+    kubeVersion: '>=1.26.0-0'
+    name: hummingbot
     type: application
     urls:
-    - https://forrie007.github.io/helm-charts/hummingbot-dashboard-0.1.0.tgz
+    - https://forrie007.github.io/helm-charts/hummingbot-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-27T12:43:31.5456445+10:00"
+generated: "2025-08-27T14:33:53.7878292+10:00"
