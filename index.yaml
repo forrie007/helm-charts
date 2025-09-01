@@ -54,11 +54,11 @@ entries:
   hummingbot:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-09-01T11:33:04.2783183+10:00"
+    created: "2025-09-01T11:50:28.7540882+10:00"
     description: Hummingbot dashboard + API + EMQX + Postgres (K8s port of hummingbot/deploy)
-    digest: 239ba211939ab1b7c6f51ce372e770fa69e40bf275c4a749be5be6ffacb5db8a
+    digest: 34f50891130d87de48995a72c5da97a695a0161d9906bf7fc56b8d29919d5aef
     name: hummingbot
     urls:
     - https://forrie007.github.io/helm-charts/hummingbot-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-01T11:33:04.2731304+10:00"
+generated: "2025-09-01T11:50:28.7470921+10:00"
