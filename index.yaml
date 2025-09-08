@@ -31,26 +31,6 @@ entries:
     urls:
     - https://forrie007.github.io/helm-charts/servarr-0.1.0.tgz
     version: 0.1.0
-  coinbase-market:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2025-07-02T15:13:54.8672448+10:00"
-    description: Polls Coinbase API for spot/ohlcv data and writes to InfluxDB
-    digest: 996db63c206ce0c2936057122a2520bbbf238d6c7a84ee89c8e1b8445077eed7
-    name: coinbase-market
-    urls:
-    - https://forrie007.github.io/helm-charts/coinbase-market-0.1.0.tgz
-    version: 0.1.0
-  coinbase-trades:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2025-07-04T15:57:44.9806701+10:00"
-    description: Polls Coinbase API for trading data and writes to InfluxDB
-    digest: e503c5d9037f5709dcb13a22539c976e43042eac3ad0dc718817437d84ead685
-    name: coinbase-trades
-    urls:
-    - https://forrie007.github.io/helm-charts/coinbase-trades-0.1.0.tgz
-    version: 0.1.0
   binance-account:
   - apiVersion: v2
     appVersion: 1.0.0
