@@ -61,4 +61,15 @@ entries:
     urls:
     - https://forrie007.github.io/helm-charts/hummingbot-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-01T17:10:33.9384996+10:00"
+  binance-account:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-09-08T15:11:48.653517+10:00"
+    description: Binance Spot User Data Stream -> InfluxDB forwarder
+    digest: 58393770be566b194332e86efc1c9d46626d47fea3264e9539e5951ed0a41c27
+    name: binance-account
+    type: application
+    urls:
+    - https://forrie007.github.io/helm-charts/binance-account-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-09-08T15:11:48.6517909+10:00"
