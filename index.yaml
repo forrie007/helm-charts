@@ -34,12 +34,12 @@ entries:
   binance-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-08T15:38:52.1769979+10:00"
+    created: "2025-09-10T14:26:36.1659665+10:00"
     description: Binance Spot User Data Stream -> InfluxDB forwarder
-    digest: dc8dab730203b15d70889c8b9bb7367d12885f799a5586b55095b5058b948b70
+    digest: 77470b82475ce418d777aef4fe33a0c86bad80f3414e504d66753d9cbf4d756f
     name: binance-account
     type: application
     urls:
     - https://forrie007.github.io/helm-charts/binance-account-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-08T15:38:52.1759992+10:00"
+generated: "2025-09-10T14:26:36.163962+10:00"
