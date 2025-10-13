@@ -3,9 +3,9 @@ entries:
   binance-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-11T10:02:34.6521254+11:00"
+    created: "2025-10-13T13:56:21.2346123+11:00"
     description: Binance Spot User Data Stream -> InfluxDB forwarder
-    digest: b3443ea7addcfc4f05fa0ab60c2cce403d09c7d8b0301cc977ee9406751e8962
+    digest: 4498d18f4e8f8e7fc03fd28d3445d016ba5b9c025b91cf201d93c2567bfd354f
     name: binance-account
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   kavita:
   - apiVersion: v2
     appVersion: nightly-0.8.4.6
-    created: "2025-10-11T10:02:34.6650017+11:00"
+    created: "2025-10-13T13:56:21.2616217+11:00"
     description: Helm chart for deploying Kavita
     digest: 054da53d7bc4b9f18e80b2e4f9e32cb9c85a227146bc019e559457efd1c308c3
     name: kavita
@@ -25,7 +25,7 @@ entries:
   pypowerwall:
   - apiVersion: v2
     appVersion: 0.6.2t26
-    created: "2025-10-11T10:02:34.6814926+11:00"
+    created: "2025-10-13T13:56:21.2809829+11:00"
     description: A Helm chart for deploying the pypowerwall application
     digest: 18a786cba7d69b61c21e99c99a3ef28048a9c19c1e842f04a59e2588880fc8eb
     name: pypowerwall
@@ -35,11 +35,11 @@ entries:
   servarr:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-10-11T10:02:34.7010632+11:00"
+    created: "2025-10-13T13:56:21.3079855+11:00"
     description: Servarr Helm Chart
     digest: b9a15640db9fc7ae2fc3d2b67a08520175a4dcd93a1de1286d2c20985757e26b
     name: servarr
     urls:
     - https://forrie007.github.io/helm-charts/servarr-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-11T10:02:34.6477417+11:00"
+generated: "2025-10-13T13:56:21.231613+11:00"
