@@ -3,7 +3,7 @@ entries:
   binance-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-13T20:58:58.8998861+11:00"
+    created: "2025-10-15T15:12:01.7158934+11:00"
     description: Binance Spot User Data Stream
     digest: b864f0b1952234e6faf69673989cfe980612208639ab00ac1571878f08642899
     name: binance-account
@@ -11,10 +11,21 @@ entries:
     urls:
     - https://forrie007.github.io/helm-charts/binance-account-0.1.0.tgz
     version: 0.1.0
+  coinbase-account:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-10-15T15:12:01.7178932+11:00"
+    description: Coinbase Data Stream
+    digest: 9ecedad6cf5748bb03d7c3cc73fa5edb935293ff70c183da5d352b47103d0493
+    name: coinbase-account
+    type: application
+    urls:
+    - https://forrie007.github.io/helm-charts/coinbase-account-0.1.0.tgz
+    version: 0.1.0
   kavita:
   - apiVersion: v2
     appVersion: nightly-0.8.4.6
-    created: "2025-10-13T20:58:58.9198461+11:00"
+    created: "2025-10-15T15:12:01.7324035+11:00"
     description: Helm chart for deploying Kavita
     digest: 054da53d7bc4b9f18e80b2e4f9e32cb9c85a227146bc019e559457efd1c308c3
     name: kavita
@@ -25,7 +36,7 @@ entries:
   kraken-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-13T20:58:58.9216704+11:00"
+    created: "2025-10-15T15:12:01.746486+11:00"
     description: Kraken Spot User Data Stream
     digest: 340d031dfeb8475a23ff4399241eb16eba8e98e4208af40805804d1905d1db03
     name: kraken-account
@@ -36,7 +47,7 @@ entries:
   pypowerwall:
   - apiVersion: v2
     appVersion: 0.6.2t26
-    created: "2025-10-13T20:58:58.9443528+11:00"
+    created: "2025-10-15T15:12:01.7616559+11:00"
     description: A Helm chart for deploying the pypowerwall application
     digest: 18a786cba7d69b61c21e99c99a3ef28048a9c19c1e842f04a59e2588880fc8eb
     name: pypowerwall
@@ -46,11 +57,11 @@ entries:
   servarr:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-10-13T20:58:58.9767435+11:00"
+    created: "2025-10-15T15:12:01.7819082+11:00"
     description: Servarr Helm Chart
     digest: b9a15640db9fc7ae2fc3d2b67a08520175a4dcd93a1de1286d2c20985757e26b
     name: servarr
     urls:
     - https://forrie007.github.io/helm-charts/servarr-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-13T20:58:58.8794427+11:00"
+generated: "2025-10-15T15:12:01.6968904+11:00"
