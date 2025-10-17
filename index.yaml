@@ -3,7 +3,7 @@ entries:
   binance-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-17T09:55:41.5955125+11:00"
+    created: "2025-10-17T15:08:11.4279007+11:00"
     description: Binance Spot User Data Stream
     digest: d89b9b4a6baf8320571c911248a571237184e004d1120d58a99d4bfcc04bec48
     name: binance-account
@@ -14,7 +14,7 @@ entries:
   coinbase-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-17T09:55:41.6115259+11:00"
+    created: "2025-10-17T15:08:11.447457+11:00"
     description: Coinbase Data Stream
     digest: 25a43f57a32b51fb6c8d4a132ff6ac85756bad292213dd84533379911746e0f3
     name: coinbase-account
@@ -25,7 +25,7 @@ entries:
   kavita:
   - apiVersion: v2
     appVersion: nightly-0.8.4.6
-    created: "2025-10-17T09:55:41.6278973+11:00"
+    created: "2025-10-17T15:08:11.4648041+11:00"
     description: Helm chart for deploying Kavita
     digest: 054da53d7bc4b9f18e80b2e4f9e32cb9c85a227146bc019e559457efd1c308c3
     name: kavita
@@ -36,9 +36,9 @@ entries:
   kraken-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-17T09:55:41.6462197+11:00"
+    created: "2025-10-17T15:08:11.4668065+11:00"
     description: Kraken Spot User Data Stream
-    digest: 340d031dfeb8475a23ff4399241eb16eba8e98e4208af40805804d1905d1db03
+    digest: 80e46e0ceddcc65b48564a7129e204c4ec60fd6801651899f89ed9b57768b998
     name: kraken-account
     type: application
     urls:
@@ -47,7 +47,7 @@ entries:
   pypowerwall:
   - apiVersion: v2
     appVersion: 0.6.2t26
-    created: "2025-10-17T09:55:41.6635295+11:00"
+    created: "2025-10-17T15:08:11.4845276+11:00"
     description: A Helm chart for deploying the pypowerwall application
     digest: 18a786cba7d69b61c21e99c99a3ef28048a9c19c1e842f04a59e2588880fc8eb
     name: pypowerwall
@@ -57,11 +57,11 @@ entries:
   servarr:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-10-17T09:55:41.6918837+11:00"
+    created: "2025-10-17T15:08:11.5058128+11:00"
     description: Servarr Helm Chart
     digest: b9a15640db9fc7ae2fc3d2b67a08520175a4dcd93a1de1286d2c20985757e26b
     name: servarr
     urls:
     - https://forrie007.github.io/helm-charts/servarr-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-17T09:55:41.5885101+11:00"
+generated: "2025-10-17T15:08:11.4033782+11:00"
