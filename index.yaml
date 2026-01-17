@@ -3,7 +3,7 @@ entries:
   binance-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-17T01:19:37.379718459Z"
+    created: "2026-01-17T02:09:41.760704566Z"
     description: Binance Spot User Data Stream
     digest: d359273fe6532f335e989bf32b96163aa2cf7315ba4a92a282790dd7428799d2
     name: binance-account
@@ -13,7 +13,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-17T01:19:37.378833552Z"
+    created: "2026-01-17T02:09:41.759867347Z"
     description: Binance Spot User Data Stream
     digest: 80c1daa76e6eecdf96850b011fd2060b02ba70c4ee020c00d318997053dbf0a2
     name: binance-account
@@ -24,9 +24,9 @@ entries:
   cmdbuild-ready2use:
   - apiVersion: v2
     appVersion: 4.1.0
-    created: "2026-01-17T01:19:37.380419334Z"
+    created: "2026-01-17T02:09:41.761365467Z"
     description: Deploy CMDBuild READY2USE on Kubernetes
-    digest: 5c998accebed8e20fc0e072558bb2d70b9e109eabe5551ea83202500c0264038
+    digest: fc71e9d978afeb3b6c51de55ddcac93d3c28d3c0592069f0f0591df68651c455
     name: cmdbuild-ready2use
     type: application
     urls:
@@ -35,7 +35,7 @@ entries:
   coinbase-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-17T01:19:37.382432493Z"
+    created: "2026-01-17T02:09:41.763335524Z"
     description: Coinbase Data Stream
     digest: b93d4a3cd898e65ce2f32cc7861220897c8759c2ee1e762784070d07a126268c
     name: coinbase-account
@@ -45,7 +45,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-17T01:19:37.381536194Z"
+    created: "2026-01-17T02:09:41.762462926Z"
     description: Coinbase Data Stream
     digest: 1948dc37396c0be1974b949d157797d6a5e3ff0328b6f3ca75723d49721cc0c0
     name: coinbase-account
@@ -56,7 +56,7 @@ entries:
   kavita:
   - apiVersion: v2
     appVersion: nightly-0.8.4.6
-    created: "2026-01-17T01:19:37.383187458Z"
+    created: "2026-01-17T02:09:41.764092519Z"
     description: Helm chart for deploying Kavita
     digest: 054da53d7bc4b9f18e80b2e4f9e32cb9c85a227146bc019e559457efd1c308c3
     name: kavita
@@ -67,7 +67,7 @@ entries:
   kraken-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-17T01:19:37.386578802Z"
+    created: "2026-01-17T02:09:41.76762871Z"
     description: Kraken Spot User Data Stream
     digest: 224704293a5aadbd12e2e71773d37a2ed5447b60b31420f120edae42b4ef62f7
     name: kraken-account
@@ -77,7 +77,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-17T01:19:37.384334804Z"
+    created: "2026-01-17T02:09:41.765789457Z"
     description: Kraken Spot User Data Stream
     digest: 6f3914e0b8d08b280718339efc87e0090bd4b0d249b2c2eef4632726a1007162
     name: kraken-account
@@ -88,7 +88,7 @@ entries:
   pypowerwall:
   - apiVersion: v2
     appVersion: 0.6.2t26
-    created: "2026-01-17T01:19:37.388886189Z"
+    created: "2026-01-17T02:09:41.769654965Z"
     description: A Helm chart for deploying the pypowerwall application
     digest: ce75acd78c5e4f8436450fb705d45a1dd3af794957839026c1836ac564279040
     name: pypowerwall
@@ -97,7 +97,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.6.2t26
-    created: "2026-01-17T01:19:37.38813514Z"
+    created: "2026-01-17T02:09:41.769037136Z"
     description: A Helm chart for deploying the pypowerwall application
     digest: 18a786cba7d69b61c21e99c99a3ef28048a9c19c1e842f04a59e2588880fc8eb
     name: pypowerwall
@@ -107,11 +107,11 @@ entries:
   servarr:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-01-17T01:19:37.39322161Z"
+    created: "2026-01-17T02:09:41.773913225Z"
     description: Servarr Helm Chart
     digest: b9a15640db9fc7ae2fc3d2b67a08520175a4dcd93a1de1286d2c20985757e26b
     name: servarr
     urls:
     - https://forrie007.github.io/helm-charts/servarr-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-17T01:19:37.37786016Z"
+generated: "2026-01-17T02:09:41.758815693Z"
