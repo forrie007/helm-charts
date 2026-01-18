@@ -1,0 +1,61 @@
+name: Prune Helm repo (keep last N)
+
+on:
+  workflow_dispatch:
+    inputs:
+      keep:
+        description: "How many latest versions to keep per chart"
+        required: true
+        default: "3"
+  schedule:
+    # Weekly Sunday 02:23 UTC (change as you like)
+    - cron: "23 2 * * 0"
+  push:
+    paths:
+      - "*.tgz"
+      - "index.yaml"
+      - ".helm-keep"
+      - "scripts/prune-helm-repo.py"
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml packaging
+
+      - name: Setup Helm
+        uses: azure/setup-helm@v4
+
+      - name: Prune
+        env:
+          KEEP: ${{ inputs.keep || '3' }}
+        run: |
+          python scripts/prune-helm-repo.py \
+            --keep "${KEEP}" \
+            --url "https://forrie007.github.io/helm-charts"
+
+      - name: Commit & push if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "chore: prune helm repo (keep last ${KEEP})"
+            git push
+          else
+            echo "No changes to commit."
+          fi
