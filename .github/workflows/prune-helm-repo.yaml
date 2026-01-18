@@ -6,7 +6,7 @@ on:
       keep:
         description: "How many latest versions to keep per chart"
         required: true
-        default: "3"
+        default: "2"
   schedule:
     # Weekly Sunday 02:23 UTC (change as you like)
     - cron: "23 2 * * 0"
@@ -42,7 +42,7 @@ jobs:
 
       - name: Prune
         env:
-          KEEP: ${{ inputs.keep || '3' }}
+          KEEP: ${{ inputs.keep || '2' }}
         run: |
           python scripts/prune-helm-repo.py \
             --keep "${KEEP}" \
