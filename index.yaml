@@ -3,7 +3,7 @@ entries:
   binance-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-23T03:46:22.766874133Z"
+    created: "2026-01-23T03:46:37.660353438Z"
     description: Binance Spot User Data Stream
     digest: d359273fe6532f335e989bf32b96163aa2cf7315ba4a92a282790dd7428799d2
     name: binance-account
@@ -13,7 +13,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-23T03:46:22.766013955Z"
+    created: "2026-01-23T03:46:37.659485072Z"
     description: Binance Spot User Data Stream
     digest: 80c1daa76e6eecdf96850b011fd2060b02ba70c4ee020c00d318997053dbf0a2
     name: binance-account
@@ -24,7 +24,7 @@ entries:
   cmdbuild-ready2use:
   - apiVersion: v2
     appVersion: 4.1.0
-    created: "2026-01-23T03:46:22.770252347Z"
+    created: "2026-01-23T03:46:37.662866625Z"
     description: Deploy CMDBuild READY2USE (itmicus/cmdbuild) on Kubernetes
     digest: 65af85e12fbee00e6befd1f8e72f30760ec215cb611d75db5965b2de95da5c33
     name: cmdbuild-ready2use
@@ -34,7 +34,7 @@ entries:
     version: 0.35.0
   - apiVersion: v2
     appVersion: 4.1.0
-    created: "2026-01-23T03:46:22.769513865Z"
+    created: "2026-01-23T03:46:37.662101671Z"
     description: Deploy CMDBuild READY2USE (itmicus/cmdbuild) on Kubernetes
     digest: bd686cf79ffd72f233fa10c162db1f882f0adb6551ead146a96aaa6d240fdd52
     name: cmdbuild-ready2use
@@ -44,7 +44,7 @@ entries:
     version: 0.27.0
   - apiVersion: v2
     appVersion: 4.1.0
-    created: "2026-01-23T03:46:22.768596542Z"
+    created: "2026-01-23T03:46:37.66124123Z"
     description: Deploy CMDBuild READY2USE (itmicus/cmdbuild) on Kubernetes
     digest: 9fe058433d40da800c8865d530c1c84c4c5af8d774d1f18c8e7f005064530cb9
     name: cmdbuild-ready2use
@@ -52,20 +52,10 @@ entries:
     urls:
     - https://forrie007.github.io/helm-charts/cmdbuild-ready2use-0.26.0.tgz
     version: 0.26.0
-  - apiVersion: v2
-    appVersion: 4.1.0
-    created: "2026-01-23T03:46:22.767710576Z"
-    description: Deploy CMDBuild READY2USE (itmicus/cmdbuild) on Kubernetes
-    digest: dd23d15517e349f747607b776db43aa4b3e9a001705e5319fd2a439ddae0cc84
-    name: cmdbuild-ready2use
-    type: application
-    urls:
-    - https://forrie007.github.io/helm-charts/cmdbuild-ready2use-0.25.0.tgz
-    version: 0.25.0
   coinbase-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-23T03:46:22.772257902Z"
+    created: "2026-01-23T03:46:37.665591405Z"
     description: Coinbase Data Stream
     digest: b93d4a3cd898e65ce2f32cc7861220897c8759c2ee1e762784070d07a126268c
     name: coinbase-account
@@ -75,7 +65,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-23T03:46:22.771369101Z"
+    created: "2026-01-23T03:46:37.663948989Z"
     description: Coinbase Data Stream
     digest: 1948dc37396c0be1974b949d157797d6a5e3ff0328b6f3ca75723d49721cc0c0
     name: coinbase-account
@@ -86,7 +76,7 @@ entries:
   kavita:
   - apiVersion: v2
     appVersion: nightly-0.8.4.6
-    created: "2026-01-23T03:46:22.773030196Z"
+    created: "2026-01-23T03:46:37.666355456Z"
     description: Helm chart for deploying Kavita
     digest: 054da53d7bc4b9f18e80b2e4f9e32cb9c85a227146bc019e559457efd1c308c3
     name: kavita
@@ -97,7 +87,7 @@ entries:
   kraken-account:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-23T03:46:22.77614981Z"
+    created: "2026-01-23T03:46:37.66795349Z"
     description: Kraken Spot User Data Stream
     digest: 224704293a5aadbd12e2e71773d37a2ed5447b60b31420f120edae42b4ef62f7
     name: kraken-account
@@ -107,7 +97,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-23T03:46:22.774594981Z"
+    created: "2026-01-23T03:46:37.667165424Z"
     description: Kraken Spot User Data Stream
     digest: 6f3914e0b8d08b280718339efc87e0090bd4b0d249b2c2eef4632726a1007162
     name: kraken-account
@@ -118,7 +108,7 @@ entries:
   pypowerwall:
   - apiVersion: v2
     appVersion: 0.6.2t26
-    created: "2026-01-23T03:46:22.778315933Z"
+    created: "2026-01-23T03:46:37.669939246Z"
     description: A Helm chart for deploying the pypowerwall application
     digest: ce75acd78c5e4f8436450fb705d45a1dd3af794957839026c1836ac564279040
     name: pypowerwall
@@ -127,7 +117,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.6.2t26
-    created: "2026-01-23T03:46:22.777674562Z"
+    created: "2026-01-23T03:46:37.669354137Z"
     description: A Helm chart for deploying the pypowerwall application
     digest: 18a786cba7d69b61c21e99c99a3ef28048a9c19c1e842f04a59e2588880fc8eb
     name: pypowerwall
@@ -137,11 +127,11 @@ entries:
   servarr:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-01-23T03:46:22.782775887Z"
+    created: "2026-01-23T03:46:37.675618425Z"
     description: Servarr Helm Chart
     digest: b9a15640db9fc7ae2fc3d2b67a08520175a4dcd93a1de1286d2c20985757e26b
     name: servarr
     urls:
     - https://forrie007.github.io/helm-charts/servarr-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-23T03:46:22.764211117Z"
+generated: "2026-01-23T03:46:37.658435719Z"
